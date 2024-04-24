@@ -8,13 +8,13 @@ public:
     
     while (i <= high) {
         if (nums[i] == 0) {
-            std::swap(nums[i], nums[low]);
+            swap(nums[i], nums[low]);
             ++i;
             ++low;
         } else if (nums[i] == 1) {
             ++i;
         } else {
-            std::swap(nums[i], nums[high]);
+            swap(nums[i], nums[high]);
             --high;
         }
     }

@@ -14,5 +14,5 @@ unordered_map<char, int> freq;
     }
 
     // The loop should always return before reaching here
-    return '\0';
+    return 0;
 }
